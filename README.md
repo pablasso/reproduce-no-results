@@ -1,28 +1,28 @@
-# Create T3 App
+Error thrown:
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+```
+Unhandled Runtime Error
+Error: Missing result
 
-## What's next? How do I make an app with this?
+Call Stack
+TRPCClientError.from
+node_modules/@trpc/client/dist/TRPCClientError-0de4d231.mjs (37:15)
+from
+node_modules/@trpc/client/dist/httpBatchLink-204206a5.mjs (200:55)
+process.processTicksAndRejections
+node:internal/process/task_queues (95:5)
+```
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Versions:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- Node: v18.12.1
+- NPM: 8.19.2
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Used options:
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Typescript
+- Tailwind, yes
+- tRPC, yes
+- Auth provider, none
+- ORM, none
+- Nextjs App Router, yes
